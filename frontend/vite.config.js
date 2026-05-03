@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 const BACKEND = 'http://127.0.0.1:8000';
 
 export default defineConfig({
+   base: '/GoldShield/',   // must match your exact repo name
   plugins: [react()],
   server: {
     port: 5173,
